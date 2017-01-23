@@ -1,4 +1,4 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode8.1
 xcode_project: Test_Travis_CI.xcodeproj 
 xcode_scheme: Test_Travis_CI
