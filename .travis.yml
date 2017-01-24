@@ -1,5 +1,4 @@
 language: objective-c
 osx_image: xcode8
 script:
- - xcodebuild -project Test_Travis_CI.xcodeproj -scheme Test_Travis_CI -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' build
-
+ - xcodebuild -project Test_Travis_CI.xcodeproj -scheme Test_Travis_CI -sdk iphonesimulator build
