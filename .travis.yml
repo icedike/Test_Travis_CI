@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode8
 xcode_project: Test_Travis_CI.xcodeproj 
 xcode_scheme: Test_Travis_CI
-xcode_sdk: iPhoneOS10.0.sdk
+xcode_sdk: iphonesimulator10.0
